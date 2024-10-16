@@ -15,7 +15,7 @@ connectDB(); // Connect to MongoDB
 // Middleware
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:3000', // Allow requests from React dev server
+    origin: 'https://booking-app-m5nv.onrender.com', // Allow requests from React dev server
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed HTTP methods
     credentials: true // If you need to send cookies or authentication headers
 }));
